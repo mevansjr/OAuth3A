@@ -4,8 +4,6 @@
 
 - [Requirements](#requirements)
 - [Installation](#installation)
-- [Usage](#usage)
-- [License](#license)
 
 ## Requirements
 
@@ -14,7 +12,7 @@
 
 ## Installation
 
-### Dependency Managers
+### Dependency
 <details>
   <summary><strong>CocoaPods</strong></summary>
 
@@ -41,15 +39,6 @@ $ pod install
 ```
 
 </details>
-
-<details>
-  <summary><strong>Carthage</strong></summary>
-
-## Usage
-
-## Contributing
-
-Issues and pull requests are welcome!
 
 ## Author
 
