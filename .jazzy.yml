@@ -1,0 +1,8 @@
+author: Mark Evans
+author_url: https://twitter.com/rahulkatariya91
+github_url: https://github.com/mevansjr/OAuth3A
+root_url: https://mevansjr.github.io/OAuth3A/
+module: OAuth3A
+output: docs
+theme: fullwidth
+xcodebuild_arguments: [-workspace, 'OAuth3A.xcworkspace', -scheme, 'OAuth3A-iOS']
