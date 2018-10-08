@@ -1,0 +1,23 @@
+PODS:
+  - OAuth3A (0.0.1):
+    - OAuth3A/Core (= 0.0.1)
+  - OAuth3A/Core (0.0.1)
+
+DEPENDENCIES:
+  - OAuth3A (from `https://github.com/mevansjr/OAuth3A`)
+
+EXTERNAL SOURCES:
+  OAuth3A:
+    :git: https://github.com/mevansjr/OAuth3A
+
+CHECKOUT OPTIONS:
+  OAuth3A:
+    :commit: ba778000a409dfd59cf28de145bb5f59ca621a4f
+    :git: https://github.com/mevansjr/OAuth3A
+
+SPEC CHECKSUMS:
+  OAuth3A: 220146da0423fcd5ea2a1c2f74c1cf6b571d8e4e
+
+PODFILE CHECKSUM: 6f345ec7acbb9dccb8e524234e04435645f60052
+
+COCOAPODS: 1.5.3
