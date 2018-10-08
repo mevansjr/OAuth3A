@@ -1,10 +1,16 @@
 PODS:
+  - Alamofire (4.7.3)
   - OAuth3A (0.0.1):
     - OAuth3A/Core (= 0.0.1)
   - OAuth3A/Core (0.0.1)
 
 DEPENDENCIES:
+  - Alamofire
   - OAuth3A (from `https://github.com/mevansjr/OAuth3A`)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - Alamofire
 
 EXTERNAL SOURCES:
   OAuth3A:
@@ -16,8 +22,9 @@ CHECKOUT OPTIONS:
     :git: https://github.com/mevansjr/OAuth3A
 
 SPEC CHECKSUMS:
+  Alamofire: c7287b6e5d7da964a70935e5db17046b7fde6568
   OAuth3A: 220146da0423fcd5ea2a1c2f74c1cf6b571d8e4e
 
-PODFILE CHECKSUM: 6f345ec7acbb9dccb8e524234e04435645f60052
+PODFILE CHECKSUM: 3cd7e4b5c0e95ce46cf9b5a86133064b5547e8f0
 
 COCOAPODS: 1.5.3

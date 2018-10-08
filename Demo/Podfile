@@ -6,7 +6,8 @@ target 'Demo' do
   use_frameworks!
 
   # Pods for Demo
-
+  
+  pod 'Alamofire'
   pod 'OAuth3A', :git => 'https://github.com/mevansjr/OAuth3A'
 
 end
