@@ -35,9 +35,6 @@
 		012775D4216C0F8E005AED7A /* Token.swift in Sources */ = {isa = PBXBuildFile; fileRef = 012775BA216C0F8E005AED7A /* Token.swift */; };
 		012775D5216C0F8E005AED7A /* Token.swift in Sources */ = {isa = PBXBuildFile; fileRef = 012775BA216C0F8E005AED7A /* Token.swift */; };
 		012775D6216C0F8E005AED7A /* Token.swift in Sources */ = {isa = PBXBuildFile; fileRef = 012775BA216C0F8E005AED7A /* Token.swift */; };
-		012775D8216C10E6005AED7A /* ObjectMapper.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 012775D7216C10E6005AED7A /* ObjectMapper.framework */; };
-		012775DA216C10F4005AED7A /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 012775D9216C10F4005AED7A /* Alamofire.framework */; };
-		012775DC216C1104005AED7A /* AlamofireObjectMapper.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 012775DB216C1104005AED7A /* AlamofireObjectMapper.framework */; };
 		3549BB501DA38A2000C63030 /* OAuth3A.h in Headers */ = {isa = PBXBuildFile; fileRef = 3549BB181DA3890B00C63030 /* OAuth3A.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		3549BB511DA38A2000C63030 /* OAuth3A.h in Headers */ = {isa = PBXBuildFile; fileRef = 3549BB181DA3890B00C63030 /* OAuth3A.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		3549BB521DA38A2100C63030 /* OAuth3A.h in Headers */ = {isa = PBXBuildFile; fileRef = 3549BB181DA3890B00C63030 /* OAuth3A.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -167,9 +164,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				012775DC216C1104005AED7A /* AlamofireObjectMapper.framework in Frameworks */,
-				012775DA216C10F4005AED7A /* Alamofire.framework in Frameworks */,
-				012775D8216C10E6005AED7A /* ObjectMapper.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
