@@ -35,6 +35,170 @@
 		012775D4216C0F8E005AED7A /* Token.swift in Sources */ = {isa = PBXBuildFile; fileRef = 012775BA216C0F8E005AED7A /* Token.swift */; };
 		012775D5216C0F8E005AED7A /* Token.swift in Sources */ = {isa = PBXBuildFile; fileRef = 012775BA216C0F8E005AED7A /* Token.swift */; };
 		012775D6216C0F8E005AED7A /* Token.swift in Sources */ = {isa = PBXBuildFile; fileRef = 012775BA216C0F8E005AED7A /* Token.swift */; };
+		0127762B216C169E005AED7A /* TaskDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 012775FE216C169E005AED7A /* TaskDelegate.swift */; };
+		0127762C216C169E005AED7A /* TaskDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 012775FE216C169E005AED7A /* TaskDelegate.swift */; };
+		0127762D216C169E005AED7A /* TaskDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 012775FE216C169E005AED7A /* TaskDelegate.swift */; };
+		0127762E216C169E005AED7A /* TaskDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 012775FE216C169E005AED7A /* TaskDelegate.swift */; };
+		0127762F216C169E005AED7A /* MultipartFormData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 012775FF216C169E005AED7A /* MultipartFormData.swift */; };
+		01277630216C169E005AED7A /* MultipartFormData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 012775FF216C169E005AED7A /* MultipartFormData.swift */; };
+		01277631216C169E005AED7A /* MultipartFormData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 012775FF216C169E005AED7A /* MultipartFormData.swift */; };
+		01277632216C169E005AED7A /* MultipartFormData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 012775FF216C169E005AED7A /* MultipartFormData.swift */; };
+		01277633216C169E005AED7A /* NetworkReachabilityManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01277600216C169E005AED7A /* NetworkReachabilityManager.swift */; };
+		01277634216C169E005AED7A /* NetworkReachabilityManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01277600216C169E005AED7A /* NetworkReachabilityManager.swift */; };
+		01277635216C169E005AED7A /* NetworkReachabilityManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01277600216C169E005AED7A /* NetworkReachabilityManager.swift */; };
+		01277636216C169E005AED7A /* NetworkReachabilityManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01277600216C169E005AED7A /* NetworkReachabilityManager.swift */; };
+		01277637216C169E005AED7A /* Timeline.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01277601216C169E005AED7A /* Timeline.swift */; };
+		01277638216C169E005AED7A /* Timeline.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01277601216C169E005AED7A /* Timeline.swift */; };
+		01277639216C169E005AED7A /* Timeline.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01277601216C169E005AED7A /* Timeline.swift */; };
+		0127763A216C169E005AED7A /* Timeline.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01277601216C169E005AED7A /* Timeline.swift */; };
+		0127763B216C169E005AED7A /* DispatchQueue+Alamofire.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01277602216C169E005AED7A /* DispatchQueue+Alamofire.swift */; };
+		0127763C216C169E005AED7A /* DispatchQueue+Alamofire.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01277602216C169E005AED7A /* DispatchQueue+Alamofire.swift */; };
+		0127763D216C169E005AED7A /* DispatchQueue+Alamofire.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01277602216C169E005AED7A /* DispatchQueue+Alamofire.swift */; };
+		0127763E216C169E005AED7A /* DispatchQueue+Alamofire.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01277602216C169E005AED7A /* DispatchQueue+Alamofire.swift */; };
+		0127763F216C169E005AED7A /* Result.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01277603216C169E005AED7A /* Result.swift */; };
+		01277640216C169E005AED7A /* Result.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01277603216C169E005AED7A /* Result.swift */; };
+		01277641216C169E005AED7A /* Result.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01277603216C169E005AED7A /* Result.swift */; };
+		01277642216C169E005AED7A /* Result.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01277603216C169E005AED7A /* Result.swift */; };
+		01277643216C169E005AED7A /* ParameterEncoding.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01277604216C169E005AED7A /* ParameterEncoding.swift */; };
+		01277644216C169E005AED7A /* ParameterEncoding.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01277604216C169E005AED7A /* ParameterEncoding.swift */; };
+		01277645216C169E005AED7A /* ParameterEncoding.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01277604216C169E005AED7A /* ParameterEncoding.swift */; };
+		01277646216C169E005AED7A /* ParameterEncoding.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01277604216C169E005AED7A /* ParameterEncoding.swift */; };
+		01277647216C169E005AED7A /* AFError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01277605216C169E005AED7A /* AFError.swift */; };
+		01277648216C169E005AED7A /* AFError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01277605216C169E005AED7A /* AFError.swift */; };
+		01277649216C169E005AED7A /* AFError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01277605216C169E005AED7A /* AFError.swift */; };
+		0127764A216C169E005AED7A /* AFError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01277605216C169E005AED7A /* AFError.swift */; };
+		0127764B216C169E005AED7A /* Validation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01277606216C169E005AED7A /* Validation.swift */; };
+		0127764C216C169E005AED7A /* Validation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01277606216C169E005AED7A /* Validation.swift */; };
+		0127764D216C169E005AED7A /* Validation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01277606216C169E005AED7A /* Validation.swift */; };
+		0127764E216C169E005AED7A /* Validation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01277606216C169E005AED7A /* Validation.swift */; };
+		0127764F216C169E005AED7A /* Notifications.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01277607216C169E005AED7A /* Notifications.swift */; };
+		01277650216C169E005AED7A /* Notifications.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01277607216C169E005AED7A /* Notifications.swift */; };
+		01277651216C169E005AED7A /* Notifications.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01277607216C169E005AED7A /* Notifications.swift */; };
+		01277652216C169E005AED7A /* Notifications.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01277607216C169E005AED7A /* Notifications.swift */; };
+		01277653216C169E005AED7A /* Response.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01277608216C169E005AED7A /* Response.swift */; };
+		01277654216C169E005AED7A /* Response.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01277608216C169E005AED7A /* Response.swift */; };
+		01277655216C169E005AED7A /* Response.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01277608216C169E005AED7A /* Response.swift */; };
+		01277656216C169E005AED7A /* Response.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01277608216C169E005AED7A /* Response.swift */; };
+		01277657216C169E005AED7A /* Alamofire.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01277609216C169E005AED7A /* Alamofire.swift */; };
+		01277658216C169E005AED7A /* Alamofire.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01277609216C169E005AED7A /* Alamofire.swift */; };
+		01277659216C169E005AED7A /* Alamofire.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01277609216C169E005AED7A /* Alamofire.swift */; };
+		0127765A216C169E005AED7A /* Alamofire.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01277609216C169E005AED7A /* Alamofire.swift */; };
+		0127765B216C169E005AED7A /* Request.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0127760A216C169E005AED7A /* Request.swift */; };
+		0127765C216C169E005AED7A /* Request.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0127760A216C169E005AED7A /* Request.swift */; };
+		0127765D216C169E005AED7A /* Request.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0127760A216C169E005AED7A /* Request.swift */; };
+		0127765E216C169E005AED7A /* Request.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0127760A216C169E005AED7A /* Request.swift */; };
+		0127765F216C169E005AED7A /* SessionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0127760B216C169E005AED7A /* SessionManager.swift */; };
+		01277660216C169E005AED7A /* SessionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0127760B216C169E005AED7A /* SessionManager.swift */; };
+		01277661216C169E005AED7A /* SessionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0127760B216C169E005AED7A /* SessionManager.swift */; };
+		01277662216C169E005AED7A /* SessionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0127760B216C169E005AED7A /* SessionManager.swift */; };
+		01277663216C169E005AED7A /* ResponseSerialization.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0127760C216C169E005AED7A /* ResponseSerialization.swift */; };
+		01277664216C169E005AED7A /* ResponseSerialization.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0127760C216C169E005AED7A /* ResponseSerialization.swift */; };
+		01277665216C169E005AED7A /* ResponseSerialization.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0127760C216C169E005AED7A /* ResponseSerialization.swift */; };
+		01277666216C169E005AED7A /* ResponseSerialization.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0127760C216C169E005AED7A /* ResponseSerialization.swift */; };
+		01277667216C169E005AED7A /* ServerTrustPolicy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0127760D216C169E005AED7A /* ServerTrustPolicy.swift */; };
+		01277668216C169E005AED7A /* ServerTrustPolicy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0127760D216C169E005AED7A /* ServerTrustPolicy.swift */; };
+		01277669216C169E005AED7A /* ServerTrustPolicy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0127760D216C169E005AED7A /* ServerTrustPolicy.swift */; };
+		0127766A216C169E005AED7A /* ServerTrustPolicy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0127760D216C169E005AED7A /* ServerTrustPolicy.swift */; };
+		0127766B216C169E005AED7A /* SessionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0127760E216C169E005AED7A /* SessionDelegate.swift */; };
+		0127766C216C169E005AED7A /* SessionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0127760E216C169E005AED7A /* SessionDelegate.swift */; };
+		0127766D216C169E005AED7A /* SessionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0127760E216C169E005AED7A /* SessionDelegate.swift */; };
+		0127766E216C169E005AED7A /* SessionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0127760E216C169E005AED7A /* SessionDelegate.swift */; };
+		0127766F216C169E005AED7A /* Mappable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01277611216C169E005AED7A /* Mappable.swift */; };
+		01277670216C169E005AED7A /* Mappable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01277611216C169E005AED7A /* Mappable.swift */; };
+		01277671216C169E005AED7A /* Mappable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01277611216C169E005AED7A /* Mappable.swift */; };
+		01277672216C169E005AED7A /* Mappable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01277611216C169E005AED7A /* Mappable.swift */; };
+		01277673216C169E005AED7A /* CustomDateFormatTransform.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01277612216C169E005AED7A /* CustomDateFormatTransform.swift */; };
+		01277674216C169E005AED7A /* CustomDateFormatTransform.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01277612216C169E005AED7A /* CustomDateFormatTransform.swift */; };
+		01277675216C169E005AED7A /* CustomDateFormatTransform.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01277612216C169E005AED7A /* CustomDateFormatTransform.swift */; };
+		01277676216C169E005AED7A /* CustomDateFormatTransform.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01277612216C169E005AED7A /* CustomDateFormatTransform.swift */; };
+		01277677216C169E005AED7A /* HexColorTransform.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01277613216C169E005AED7A /* HexColorTransform.swift */; };
+		01277678216C169E005AED7A /* HexColorTransform.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01277613216C169E005AED7A /* HexColorTransform.swift */; };
+		01277679216C169E005AED7A /* HexColorTransform.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01277613216C169E005AED7A /* HexColorTransform.swift */; };
+		0127767A216C169E005AED7A /* HexColorTransform.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01277613216C169E005AED7A /* HexColorTransform.swift */; };
+		0127767B216C169E005AED7A /* ISO8601DateTransform.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01277614216C169E005AED7A /* ISO8601DateTransform.swift */; };
+		0127767C216C169E005AED7A /* ISO8601DateTransform.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01277614216C169E005AED7A /* ISO8601DateTransform.swift */; };
+		0127767D216C169E005AED7A /* ISO8601DateTransform.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01277614216C169E005AED7A /* ISO8601DateTransform.swift */; };
+		0127767E216C169E005AED7A /* ISO8601DateTransform.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01277614216C169E005AED7A /* ISO8601DateTransform.swift */; };
+		0127767F216C169E005AED7A /* URLTransform.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01277615216C169E005AED7A /* URLTransform.swift */; };
+		01277680216C169E005AED7A /* URLTransform.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01277615216C169E005AED7A /* URLTransform.swift */; };
+		01277681216C169E005AED7A /* URLTransform.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01277615216C169E005AED7A /* URLTransform.swift */; };
+		01277682216C169E005AED7A /* URLTransform.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01277615216C169E005AED7A /* URLTransform.swift */; };
+		01277683216C169E005AED7A /* NSDecimalNumberTransform.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01277616216C169E005AED7A /* NSDecimalNumberTransform.swift */; };
+		01277684216C169E005AED7A /* NSDecimalNumberTransform.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01277616216C169E005AED7A /* NSDecimalNumberTransform.swift */; };
+		01277685216C169E005AED7A /* NSDecimalNumberTransform.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01277616216C169E005AED7A /* NSDecimalNumberTransform.swift */; };
+		01277686216C169E005AED7A /* NSDecimalNumberTransform.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01277616216C169E005AED7A /* NSDecimalNumberTransform.swift */; };
+		01277687216C169E005AED7A /* Operators.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01277617216C169E005AED7A /* Operators.swift */; };
+		01277688216C169E005AED7A /* Operators.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01277617216C169E005AED7A /* Operators.swift */; };
+		01277689216C169E005AED7A /* Operators.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01277617216C169E005AED7A /* Operators.swift */; };
+		0127768A216C169E005AED7A /* Operators.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01277617216C169E005AED7A /* Operators.swift */; };
+		0127768B216C169E005AED7A /* EnumOperators.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01277618216C169E005AED7A /* EnumOperators.swift */; };
+		0127768C216C169E005AED7A /* EnumOperators.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01277618216C169E005AED7A /* EnumOperators.swift */; };
+		0127768D216C169E005AED7A /* EnumOperators.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01277618216C169E005AED7A /* EnumOperators.swift */; };
+		0127768E216C169E005AED7A /* EnumOperators.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01277618216C169E005AED7A /* EnumOperators.swift */; };
+		0127768F216C169E005AED7A /* EnumTransform.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01277619216C169E005AED7A /* EnumTransform.swift */; };
+		01277690216C169E005AED7A /* EnumTransform.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01277619216C169E005AED7A /* EnumTransform.swift */; };
+		01277691216C169E005AED7A /* EnumTransform.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01277619216C169E005AED7A /* EnumTransform.swift */; };
+		01277692216C169E005AED7A /* EnumTransform.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01277619216C169E005AED7A /* EnumTransform.swift */; };
+		01277693216C169E005AED7A /* DataTransform.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0127761A216C169E005AED7A /* DataTransform.swift */; };
+		01277694216C169E005AED7A /* DataTransform.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0127761A216C169E005AED7A /* DataTransform.swift */; };
+		01277695216C169E005AED7A /* DataTransform.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0127761A216C169E005AED7A /* DataTransform.swift */; };
+		01277696216C169E005AED7A /* DataTransform.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0127761A216C169E005AED7A /* DataTransform.swift */; };
+		01277697216C169E005AED7A /* Mapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0127761B216C169E005AED7A /* Mapper.swift */; };
+		01277698216C169E005AED7A /* Mapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0127761B216C169E005AED7A /* Mapper.swift */; };
+		01277699216C169E005AED7A /* Mapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0127761B216C169E005AED7A /* Mapper.swift */; };
+		0127769A216C169E005AED7A /* Mapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0127761B216C169E005AED7A /* Mapper.swift */; };
+		0127769B216C169E005AED7A /* Map.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0127761C216C169E005AED7A /* Map.swift */; };
+		0127769C216C169E005AED7A /* Map.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0127761C216C169E005AED7A /* Map.swift */; };
+		0127769D216C169E005AED7A /* Map.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0127761C216C169E005AED7A /* Map.swift */; };
+		0127769E216C169E005AED7A /* Map.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0127761C216C169E005AED7A /* Map.swift */; };
+		0127769F216C169E005AED7A /* FromJSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0127761D216C169E005AED7A /* FromJSON.swift */; };
+		012776A0216C169E005AED7A /* FromJSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0127761D216C169E005AED7A /* FromJSON.swift */; };
+		012776A1216C169E005AED7A /* FromJSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0127761D216C169E005AED7A /* FromJSON.swift */; };
+		012776A2216C169E005AED7A /* FromJSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0127761D216C169E005AED7A /* FromJSON.swift */; };
+		012776A3216C169E005AED7A /* DictionaryTransform.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0127761E216C169E005AED7A /* DictionaryTransform.swift */; };
+		012776A4216C169E005AED7A /* DictionaryTransform.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0127761E216C169E005AED7A /* DictionaryTransform.swift */; };
+		012776A5216C169E005AED7A /* DictionaryTransform.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0127761E216C169E005AED7A /* DictionaryTransform.swift */; };
+		012776A6216C169E005AED7A /* DictionaryTransform.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0127761E216C169E005AED7A /* DictionaryTransform.swift */; };
+		012776A7216C169E005AED7A /* TransformOperators.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0127761F216C169E005AED7A /* TransformOperators.swift */; };
+		012776A8216C169E005AED7A /* TransformOperators.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0127761F216C169E005AED7A /* TransformOperators.swift */; };
+		012776A9216C169E005AED7A /* TransformOperators.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0127761F216C169E005AED7A /* TransformOperators.swift */; };
+		012776AA216C169E005AED7A /* TransformOperators.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0127761F216C169E005AED7A /* TransformOperators.swift */; };
+		012776AB216C169E005AED7A /* ImmutableMappable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01277620216C169E005AED7A /* ImmutableMappable.swift */; };
+		012776AC216C169E005AED7A /* ImmutableMappable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01277620216C169E005AED7A /* ImmutableMappable.swift */; };
+		012776AD216C169E005AED7A /* ImmutableMappable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01277620216C169E005AED7A /* ImmutableMappable.swift */; };
+		012776AE216C169E005AED7A /* ImmutableMappable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01277620216C169E005AED7A /* ImmutableMappable.swift */; };
+		012776AF216C169E005AED7A /* IntegerOperators.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01277621216C169E005AED7A /* IntegerOperators.swift */; };
+		012776B0216C169E005AED7A /* IntegerOperators.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01277621216C169E005AED7A /* IntegerOperators.swift */; };
+		012776B1216C169E005AED7A /* IntegerOperators.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01277621216C169E005AED7A /* IntegerOperators.swift */; };
+		012776B2216C169E005AED7A /* IntegerOperators.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01277621216C169E005AED7A /* IntegerOperators.swift */; };
+		012776B3216C169E005AED7A /* TransformType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01277622216C169E005AED7A /* TransformType.swift */; };
+		012776B4216C169E005AED7A /* TransformType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01277622216C169E005AED7A /* TransformType.swift */; };
+		012776B5216C169E005AED7A /* TransformType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01277622216C169E005AED7A /* TransformType.swift */; };
+		012776B6216C169E005AED7A /* TransformType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01277622216C169E005AED7A /* TransformType.swift */; };
+		012776B7216C169E005AED7A /* MapError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01277623216C169E005AED7A /* MapError.swift */; };
+		012776B8216C169E005AED7A /* MapError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01277623216C169E005AED7A /* MapError.swift */; };
+		012776B9216C169E005AED7A /* MapError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01277623216C169E005AED7A /* MapError.swift */; };
+		012776BA216C169E005AED7A /* MapError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01277623216C169E005AED7A /* MapError.swift */; };
+		012776BB216C169E005AED7A /* DateTransform.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01277624216C169E005AED7A /* DateTransform.swift */; };
+		012776BC216C169E005AED7A /* DateTransform.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01277624216C169E005AED7A /* DateTransform.swift */; };
+		012776BD216C169E005AED7A /* DateTransform.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01277624216C169E005AED7A /* DateTransform.swift */; };
+		012776BE216C169E005AED7A /* DateTransform.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01277624216C169E005AED7A /* DateTransform.swift */; };
+		012776BF216C169E005AED7A /* DateFormatterTransform.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01277625216C169E005AED7A /* DateFormatterTransform.swift */; };
+		012776C0216C169E005AED7A /* DateFormatterTransform.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01277625216C169E005AED7A /* DateFormatterTransform.swift */; };
+		012776C1216C169E005AED7A /* DateFormatterTransform.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01277625216C169E005AED7A /* DateFormatterTransform.swift */; };
+		012776C2216C169E005AED7A /* DateFormatterTransform.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01277625216C169E005AED7A /* DateFormatterTransform.swift */; };
+		012776C3216C169E005AED7A /* ToJSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01277626216C169E005AED7A /* ToJSON.swift */; };
+		012776C4216C169E005AED7A /* ToJSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01277626216C169E005AED7A /* ToJSON.swift */; };
+		012776C5216C169E005AED7A /* ToJSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01277626216C169E005AED7A /* ToJSON.swift */; };
+		012776C6216C169E005AED7A /* ToJSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01277626216C169E005AED7A /* ToJSON.swift */; };
+		012776C7216C169E005AED7A /* TransformOf.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01277627216C169E005AED7A /* TransformOf.swift */; };
+		012776C8216C169E005AED7A /* TransformOf.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01277627216C169E005AED7A /* TransformOf.swift */; };
+		012776C9216C169E005AED7A /* TransformOf.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01277627216C169E005AED7A /* TransformOf.swift */; };
+		012776CA216C169E005AED7A /* TransformOf.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01277627216C169E005AED7A /* TransformOf.swift */; };
+		012776CB216C169E005AED7A /* AlamofireObjectMapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0127762A216C169E005AED7A /* AlamofireObjectMapper.swift */; };
+		012776CC216C169E005AED7A /* AlamofireObjectMapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0127762A216C169E005AED7A /* AlamofireObjectMapper.swift */; };
+		012776CD216C169E005AED7A /* AlamofireObjectMapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0127762A216C169E005AED7A /* AlamofireObjectMapper.swift */; };
+		012776CE216C169E005AED7A /* AlamofireObjectMapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0127762A216C169E005AED7A /* AlamofireObjectMapper.swift */; };
 		3549BB501DA38A2000C63030 /* OAuth3A.h in Headers */ = {isa = PBXBuildFile; fileRef = 3549BB181DA3890B00C63030 /* OAuth3A.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		3549BB511DA38A2000C63030 /* OAuth3A.h in Headers */ = {isa = PBXBuildFile; fileRef = 3549BB181DA3890B00C63030 /* OAuth3A.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		3549BB521DA38A2100C63030 /* OAuth3A.h in Headers */ = {isa = PBXBuildFile; fileRef = 3549BB181DA3890B00C63030 /* OAuth3A.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -137,6 +301,47 @@
 		012775D7216C10E6005AED7A /* ObjectMapper.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ObjectMapper.framework; path = Carthage/Build/iOS/ObjectMapper.framework; sourceTree = "<group>"; };
 		012775D9216C10F4005AED7A /* Alamofire.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Alamofire.framework; path = Carthage/Build/iOS/Alamofire.framework; sourceTree = "<group>"; };
 		012775DB216C1104005AED7A /* AlamofireObjectMapper.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AlamofireObjectMapper.framework; path = Carthage/Build/iOS/AlamofireObjectMapper.framework; sourceTree = "<group>"; };
+		012775FE216C169E005AED7A /* TaskDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TaskDelegate.swift; sourceTree = "<group>"; };
+		012775FF216C169E005AED7A /* MultipartFormData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MultipartFormData.swift; sourceTree = "<group>"; };
+		01277600216C169E005AED7A /* NetworkReachabilityManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkReachabilityManager.swift; sourceTree = "<group>"; };
+		01277601216C169E005AED7A /* Timeline.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Timeline.swift; sourceTree = "<group>"; };
+		01277602216C169E005AED7A /* DispatchQueue+Alamofire.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "DispatchQueue+Alamofire.swift"; sourceTree = "<group>"; };
+		01277603216C169E005AED7A /* Result.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Result.swift; sourceTree = "<group>"; };
+		01277604216C169E005AED7A /* ParameterEncoding.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ParameterEncoding.swift; sourceTree = "<group>"; };
+		01277605216C169E005AED7A /* AFError.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AFError.swift; sourceTree = "<group>"; };
+		01277606216C169E005AED7A /* Validation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Validation.swift; sourceTree = "<group>"; };
+		01277607216C169E005AED7A /* Notifications.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Notifications.swift; sourceTree = "<group>"; };
+		01277608216C169E005AED7A /* Response.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Response.swift; sourceTree = "<group>"; };
+		01277609216C169E005AED7A /* Alamofire.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Alamofire.swift; sourceTree = "<group>"; };
+		0127760A216C169E005AED7A /* Request.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Request.swift; sourceTree = "<group>"; };
+		0127760B216C169E005AED7A /* SessionManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SessionManager.swift; sourceTree = "<group>"; };
+		0127760C216C169E005AED7A /* ResponseSerialization.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ResponseSerialization.swift; sourceTree = "<group>"; };
+		0127760D216C169E005AED7A /* ServerTrustPolicy.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ServerTrustPolicy.swift; sourceTree = "<group>"; };
+		0127760E216C169E005AED7A /* SessionDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SessionDelegate.swift; sourceTree = "<group>"; };
+		01277611216C169E005AED7A /* Mappable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Mappable.swift; sourceTree = "<group>"; };
+		01277612216C169E005AED7A /* CustomDateFormatTransform.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomDateFormatTransform.swift; sourceTree = "<group>"; };
+		01277613216C169E005AED7A /* HexColorTransform.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HexColorTransform.swift; sourceTree = "<group>"; };
+		01277614216C169E005AED7A /* ISO8601DateTransform.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ISO8601DateTransform.swift; sourceTree = "<group>"; };
+		01277615216C169E005AED7A /* URLTransform.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = URLTransform.swift; sourceTree = "<group>"; };
+		01277616216C169E005AED7A /* NSDecimalNumberTransform.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NSDecimalNumberTransform.swift; sourceTree = "<group>"; };
+		01277617216C169E005AED7A /* Operators.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Operators.swift; sourceTree = "<group>"; };
+		01277618216C169E005AED7A /* EnumOperators.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EnumOperators.swift; sourceTree = "<group>"; };
+		01277619216C169E005AED7A /* EnumTransform.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EnumTransform.swift; sourceTree = "<group>"; };
+		0127761A216C169E005AED7A /* DataTransform.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataTransform.swift; sourceTree = "<group>"; };
+		0127761B216C169E005AED7A /* Mapper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Mapper.swift; sourceTree = "<group>"; };
+		0127761C216C169E005AED7A /* Map.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Map.swift; sourceTree = "<group>"; };
+		0127761D216C169E005AED7A /* FromJSON.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FromJSON.swift; sourceTree = "<group>"; };
+		0127761E216C169E005AED7A /* DictionaryTransform.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DictionaryTransform.swift; sourceTree = "<group>"; };
+		0127761F216C169E005AED7A /* TransformOperators.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TransformOperators.swift; sourceTree = "<group>"; };
+		01277620216C169E005AED7A /* ImmutableMappable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImmutableMappable.swift; sourceTree = "<group>"; };
+		01277621216C169E005AED7A /* IntegerOperators.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IntegerOperators.swift; sourceTree = "<group>"; };
+		01277622216C169E005AED7A /* TransformType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TransformType.swift; sourceTree = "<group>"; };
+		01277623216C169E005AED7A /* MapError.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapError.swift; sourceTree = "<group>"; };
+		01277624216C169E005AED7A /* DateTransform.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DateTransform.swift; sourceTree = "<group>"; };
+		01277625216C169E005AED7A /* DateFormatterTransform.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DateFormatterTransform.swift; sourceTree = "<group>"; };
+		01277626216C169E005AED7A /* ToJSON.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ToJSON.swift; sourceTree = "<group>"; };
+		01277627216C169E005AED7A /* TransformOf.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TransformOf.swift; sourceTree = "<group>"; };
+		0127762A216C169E005AED7A /* AlamofireObjectMapper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AlamofireObjectMapper.swift; sourceTree = "<group>"; };
 		3549BB171DA3890B00C63030 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3549BB181DA3890B00C63030 /* OAuth3A.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OAuth3A.h; sourceTree = "<group>"; };
 		3549BB211DA389CD00C63030 /* OAuth3A.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = OAuth3A.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -273,6 +478,102 @@
 			path = Models;
 			sourceTree = "<group>";
 		};
+		012775FB216C1669005AED7A /* Libraries */ = {
+			isa = PBXGroup;
+			children = (
+				012775FC216C169E005AED7A /* Alamofire */,
+				01277628216C169E005AED7A /* AlamofireObjectMapper */,
+				0127760F216C169E005AED7A /* ObjectMapper */,
+			);
+			path = Libraries;
+			sourceTree = "<group>";
+		};
+		012775FC216C169E005AED7A /* Alamofire */ = {
+			isa = PBXGroup;
+			children = (
+				012775FD216C169E005AED7A /* Source */,
+			);
+			path = Alamofire;
+			sourceTree = "<group>";
+		};
+		012775FD216C169E005AED7A /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				012775FE216C169E005AED7A /* TaskDelegate.swift */,
+				012775FF216C169E005AED7A /* MultipartFormData.swift */,
+				01277600216C169E005AED7A /* NetworkReachabilityManager.swift */,
+				01277601216C169E005AED7A /* Timeline.swift */,
+				01277602216C169E005AED7A /* DispatchQueue+Alamofire.swift */,
+				01277603216C169E005AED7A /* Result.swift */,
+				01277604216C169E005AED7A /* ParameterEncoding.swift */,
+				01277605216C169E005AED7A /* AFError.swift */,
+				01277606216C169E005AED7A /* Validation.swift */,
+				01277607216C169E005AED7A /* Notifications.swift */,
+				01277608216C169E005AED7A /* Response.swift */,
+				01277609216C169E005AED7A /* Alamofire.swift */,
+				0127760A216C169E005AED7A /* Request.swift */,
+				0127760B216C169E005AED7A /* SessionManager.swift */,
+				0127760C216C169E005AED7A /* ResponseSerialization.swift */,
+				0127760D216C169E005AED7A /* ServerTrustPolicy.swift */,
+				0127760E216C169E005AED7A /* SessionDelegate.swift */,
+			);
+			path = Source;
+			sourceTree = "<group>";
+		};
+		0127760F216C169E005AED7A /* ObjectMapper */ = {
+			isa = PBXGroup;
+			children = (
+				01277610216C169E005AED7A /* Sources */,
+			);
+			path = ObjectMapper;
+			sourceTree = "<group>";
+		};
+		01277610216C169E005AED7A /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				01277611216C169E005AED7A /* Mappable.swift */,
+				01277612216C169E005AED7A /* CustomDateFormatTransform.swift */,
+				01277613216C169E005AED7A /* HexColorTransform.swift */,
+				01277614216C169E005AED7A /* ISO8601DateTransform.swift */,
+				01277615216C169E005AED7A /* URLTransform.swift */,
+				01277616216C169E005AED7A /* NSDecimalNumberTransform.swift */,
+				01277617216C169E005AED7A /* Operators.swift */,
+				01277618216C169E005AED7A /* EnumOperators.swift */,
+				01277619216C169E005AED7A /* EnumTransform.swift */,
+				0127761A216C169E005AED7A /* DataTransform.swift */,
+				0127761B216C169E005AED7A /* Mapper.swift */,
+				0127761C216C169E005AED7A /* Map.swift */,
+				0127761D216C169E005AED7A /* FromJSON.swift */,
+				0127761E216C169E005AED7A /* DictionaryTransform.swift */,
+				0127761F216C169E005AED7A /* TransformOperators.swift */,
+				01277620216C169E005AED7A /* ImmutableMappable.swift */,
+				01277621216C169E005AED7A /* IntegerOperators.swift */,
+				01277622216C169E005AED7A /* TransformType.swift */,
+				01277623216C169E005AED7A /* MapError.swift */,
+				01277624216C169E005AED7A /* DateTransform.swift */,
+				01277625216C169E005AED7A /* DateFormatterTransform.swift */,
+				01277626216C169E005AED7A /* ToJSON.swift */,
+				01277627216C169E005AED7A /* TransformOf.swift */,
+			);
+			path = Sources;
+			sourceTree = "<group>";
+		};
+		01277628216C169E005AED7A /* AlamofireObjectMapper */ = {
+			isa = PBXGroup;
+			children = (
+				01277629216C169E005AED7A /* AlamofireObjectMapper */,
+			);
+			path = AlamofireObjectMapper;
+			sourceTree = "<group>";
+		};
+		01277629216C169E005AED7A /* AlamofireObjectMapper */ = {
+			isa = PBXGroup;
+			children = (
+				0127762A216C169E005AED7A /* AlamofireObjectMapper.swift */,
+			);
+			path = AlamofireObjectMapper;
+			sourceTree = "<group>";
+		};
 		3549BAFB1DA387DB00C63030 = {
 			isa = PBXGroup;
 			children = (
@@ -357,6 +658,7 @@
 				012775AE216C0F8E005AED7A /* Configuration */,
 				012775B8216C0F8E005AED7A /* Models */,
 				012775B0216C0F8E005AED7A /* Services */,
+				012775FB216C1669005AED7A /* Libraries */,
 			);
 			path = Core;
 			sourceTree = "<group>";
@@ -535,12 +837,11 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0800;
-				LastUpgradeCheck = 0930;
+				LastUpgradeCheck = 1000;
 				ORGANIZATIONNAME = mevansjr;
 				TargetAttributes = {
 					3549BB201DA389CD00C63030 = {
 						CreatedOnToolsVersion = 8.0;
-						DevelopmentTeam = ZN6BYUYD2C;
 						LastSwiftMigration = "";
 						ProvisioningStyle = Automatic;
 					};
@@ -656,12 +957,53 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				01277637216C169E005AED7A /* Timeline.swift in Sources */,
+				012776B7216C169E005AED7A /* MapError.swift in Sources */,
 				012775BB216C0F8E005AED7A /* API.swift in Sources */,
 				012775CF216C0F8E005AED7A /* UserDetail.swift in Sources */,
+				012776B3216C169E005AED7A /* TransformType.swift in Sources */,
+				01277667216C169E005AED7A /* ServerTrustPolicy.swift in Sources */,
+				01277697216C169E005AED7A /* Mapper.swift in Sources */,
 				012775C3216C0F8E005AED7A /* ClientOAuthHandler.swift in Sources */,
+				0127765B216C169E005AED7A /* Request.swift in Sources */,
+				0127763F216C169E005AED7A /* Result.swift in Sources */,
+				0127766F216C169E005AED7A /* Mappable.swift in Sources */,
+				012776BB216C169E005AED7A /* DateTransform.swift in Sources */,
+				01277693216C169E005AED7A /* DataTransform.swift in Sources */,
+				0127769B216C169E005AED7A /* Map.swift in Sources */,
+				0127767B216C169E005AED7A /* ISO8601DateTransform.swift in Sources */,
+				01277687216C169E005AED7A /* Operators.swift in Sources */,
+				01277653216C169E005AED7A /* Response.swift in Sources */,
+				01277657216C169E005AED7A /* Alamofire.swift in Sources */,
+				012776CB216C169E005AED7A /* AlamofireObjectMapper.swift in Sources */,
+				01277677216C169E005AED7A /* HexColorTransform.swift in Sources */,
 				012775CB216C0F8E005AED7A /* ClientService.swift in Sources */,
+				012776A3216C169E005AED7A /* DictionaryTransform.swift in Sources */,
+				01277683216C169E005AED7A /* NSDecimalNumberTransform.swift in Sources */,
+				0127762F216C169E005AED7A /* MultipartFormData.swift in Sources */,
+				0127765F216C169E005AED7A /* SessionManager.swift in Sources */,
+				0127763B216C169E005AED7A /* DispatchQueue+Alamofire.swift in Sources */,
+				012776C3216C169E005AED7A /* ToJSON.swift in Sources */,
+				012776A7216C169E005AED7A /* TransformOperators.swift in Sources */,
+				0127762B216C169E005AED7A /* TaskDelegate.swift in Sources */,
+				0127768B216C169E005AED7A /* EnumOperators.swift in Sources */,
+				0127764B216C169E005AED7A /* Validation.swift in Sources */,
+				01277647216C169E005AED7A /* AFError.swift in Sources */,
+				0127766B216C169E005AED7A /* SessionDelegate.swift in Sources */,
+				012776AF216C169E005AED7A /* IntegerOperators.swift in Sources */,
+				0127767F216C169E005AED7A /* URLTransform.swift in Sources */,
 				012775C7216C0F8E005AED7A /* AuthService.swift in Sources */,
+				012776AB216C169E005AED7A /* ImmutableMappable.swift in Sources */,
+				0127764F216C169E005AED7A /* Notifications.swift in Sources */,
+				01277633216C169E005AED7A /* NetworkReachabilityManager.swift in Sources */,
+				012776BF216C169E005AED7A /* DateFormatterTransform.swift in Sources */,
+				0127768F216C169E005AED7A /* EnumTransform.swift in Sources */,
 				012775BF216C0F8E005AED7A /* AuthRouter.swift in Sources */,
+				01277663216C169E005AED7A /* ResponseSerialization.swift in Sources */,
+				0127769F216C169E005AED7A /* FromJSON.swift in Sources */,
+				01277643216C169E005AED7A /* ParameterEncoding.swift in Sources */,
+				01277673216C169E005AED7A /* CustomDateFormatTransform.swift in Sources */,
+				012776C7216C169E005AED7A /* TransformOf.swift in Sources */,
 				359649031FB18CC000FC7ADC /* OAuth3A.swift in Sources */,
 				012775D3216C0F8E005AED7A /* Token.swift in Sources */,
 			);
@@ -671,12 +1013,53 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0127763A216C169E005AED7A /* Timeline.swift in Sources */,
+				012776BA216C169E005AED7A /* MapError.swift in Sources */,
 				012775BE216C0F8E005AED7A /* API.swift in Sources */,
 				012775D2216C0F8E005AED7A /* UserDetail.swift in Sources */,
+				012776B6216C169E005AED7A /* TransformType.swift in Sources */,
+				0127766A216C169E005AED7A /* ServerTrustPolicy.swift in Sources */,
+				0127769A216C169E005AED7A /* Mapper.swift in Sources */,
 				012775C6216C0F8E005AED7A /* ClientOAuthHandler.swift in Sources */,
+				0127765E216C169E005AED7A /* Request.swift in Sources */,
+				01277642216C169E005AED7A /* Result.swift in Sources */,
+				01277672216C169E005AED7A /* Mappable.swift in Sources */,
+				012776BE216C169E005AED7A /* DateTransform.swift in Sources */,
+				01277696216C169E005AED7A /* DataTransform.swift in Sources */,
+				0127769E216C169E005AED7A /* Map.swift in Sources */,
+				0127767E216C169E005AED7A /* ISO8601DateTransform.swift in Sources */,
+				0127768A216C169E005AED7A /* Operators.swift in Sources */,
+				01277656216C169E005AED7A /* Response.swift in Sources */,
+				0127765A216C169E005AED7A /* Alamofire.swift in Sources */,
+				012776CE216C169E005AED7A /* AlamofireObjectMapper.swift in Sources */,
+				0127767A216C169E005AED7A /* HexColorTransform.swift in Sources */,
 				012775CE216C0F8E005AED7A /* ClientService.swift in Sources */,
+				012776A6216C169E005AED7A /* DictionaryTransform.swift in Sources */,
+				01277686216C169E005AED7A /* NSDecimalNumberTransform.swift in Sources */,
+				01277632216C169E005AED7A /* MultipartFormData.swift in Sources */,
+				01277662216C169E005AED7A /* SessionManager.swift in Sources */,
+				0127763E216C169E005AED7A /* DispatchQueue+Alamofire.swift in Sources */,
+				012776C6216C169E005AED7A /* ToJSON.swift in Sources */,
+				012776AA216C169E005AED7A /* TransformOperators.swift in Sources */,
+				0127762E216C169E005AED7A /* TaskDelegate.swift in Sources */,
+				0127768E216C169E005AED7A /* EnumOperators.swift in Sources */,
+				0127764E216C169E005AED7A /* Validation.swift in Sources */,
+				0127764A216C169E005AED7A /* AFError.swift in Sources */,
+				0127766E216C169E005AED7A /* SessionDelegate.swift in Sources */,
+				012776B2216C169E005AED7A /* IntegerOperators.swift in Sources */,
+				01277682216C169E005AED7A /* URLTransform.swift in Sources */,
 				012775CA216C0F8E005AED7A /* AuthService.swift in Sources */,
+				012776AE216C169E005AED7A /* ImmutableMappable.swift in Sources */,
+				01277652216C169E005AED7A /* Notifications.swift in Sources */,
+				01277636216C169E005AED7A /* NetworkReachabilityManager.swift in Sources */,
+				012776C2216C169E005AED7A /* DateFormatterTransform.swift in Sources */,
+				01277692216C169E005AED7A /* EnumTransform.swift in Sources */,
 				012775C2216C0F8E005AED7A /* AuthRouter.swift in Sources */,
+				01277666216C169E005AED7A /* ResponseSerialization.swift in Sources */,
+				012776A2216C169E005AED7A /* FromJSON.swift in Sources */,
+				01277646216C169E005AED7A /* ParameterEncoding.swift in Sources */,
+				01277676216C169E005AED7A /* CustomDateFormatTransform.swift in Sources */,
+				012776CA216C169E005AED7A /* TransformOf.swift in Sources */,
 				359649061FB18CC000FC7ADC /* OAuth3A.swift in Sources */,
 				012775D6216C0F8E005AED7A /* Token.swift in Sources */,
 			);
@@ -686,12 +1069,53 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				01277638216C169E005AED7A /* Timeline.swift in Sources */,
+				012776B8216C169E005AED7A /* MapError.swift in Sources */,
 				012775BC216C0F8E005AED7A /* API.swift in Sources */,
 				012775D0216C0F8E005AED7A /* UserDetail.swift in Sources */,
+				012776B4216C169E005AED7A /* TransformType.swift in Sources */,
+				01277668216C169E005AED7A /* ServerTrustPolicy.swift in Sources */,
+				01277698216C169E005AED7A /* Mapper.swift in Sources */,
 				012775C4216C0F8E005AED7A /* ClientOAuthHandler.swift in Sources */,
+				0127765C216C169E005AED7A /* Request.swift in Sources */,
+				01277640216C169E005AED7A /* Result.swift in Sources */,
+				01277670216C169E005AED7A /* Mappable.swift in Sources */,
+				012776BC216C169E005AED7A /* DateTransform.swift in Sources */,
+				01277694216C169E005AED7A /* DataTransform.swift in Sources */,
+				0127769C216C169E005AED7A /* Map.swift in Sources */,
+				0127767C216C169E005AED7A /* ISO8601DateTransform.swift in Sources */,
+				01277688216C169E005AED7A /* Operators.swift in Sources */,
+				01277654216C169E005AED7A /* Response.swift in Sources */,
+				01277658216C169E005AED7A /* Alamofire.swift in Sources */,
+				012776CC216C169E005AED7A /* AlamofireObjectMapper.swift in Sources */,
+				01277678216C169E005AED7A /* HexColorTransform.swift in Sources */,
 				012775CC216C0F8E005AED7A /* ClientService.swift in Sources */,
+				012776A4216C169E005AED7A /* DictionaryTransform.swift in Sources */,
+				01277684216C169E005AED7A /* NSDecimalNumberTransform.swift in Sources */,
+				01277630216C169E005AED7A /* MultipartFormData.swift in Sources */,
+				01277660216C169E005AED7A /* SessionManager.swift in Sources */,
+				0127763C216C169E005AED7A /* DispatchQueue+Alamofire.swift in Sources */,
+				012776C4216C169E005AED7A /* ToJSON.swift in Sources */,
+				012776A8216C169E005AED7A /* TransformOperators.swift in Sources */,
+				0127762C216C169E005AED7A /* TaskDelegate.swift in Sources */,
+				0127768C216C169E005AED7A /* EnumOperators.swift in Sources */,
+				0127764C216C169E005AED7A /* Validation.swift in Sources */,
+				01277648216C169E005AED7A /* AFError.swift in Sources */,
+				0127766C216C169E005AED7A /* SessionDelegate.swift in Sources */,
+				012776B0216C169E005AED7A /* IntegerOperators.swift in Sources */,
+				01277680216C169E005AED7A /* URLTransform.swift in Sources */,
 				012775C8216C0F8E005AED7A /* AuthService.swift in Sources */,
+				012776AC216C169E005AED7A /* ImmutableMappable.swift in Sources */,
+				01277650216C169E005AED7A /* Notifications.swift in Sources */,
+				01277634216C169E005AED7A /* NetworkReachabilityManager.swift in Sources */,
+				012776C0216C169E005AED7A /* DateFormatterTransform.swift in Sources */,
+				01277690216C169E005AED7A /* EnumTransform.swift in Sources */,
 				012775C0216C0F8E005AED7A /* AuthRouter.swift in Sources */,
+				01277664216C169E005AED7A /* ResponseSerialization.swift in Sources */,
+				012776A0216C169E005AED7A /* FromJSON.swift in Sources */,
+				01277644216C169E005AED7A /* ParameterEncoding.swift in Sources */,
+				01277674216C169E005AED7A /* CustomDateFormatTransform.swift in Sources */,
+				012776C8216C169E005AED7A /* TransformOf.swift in Sources */,
 				359649041FB18CC000FC7ADC /* OAuth3A.swift in Sources */,
 				012775D4216C0F8E005AED7A /* Token.swift in Sources */,
 			);
@@ -701,12 +1125,53 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				01277639216C169E005AED7A /* Timeline.swift in Sources */,
+				012776B9216C169E005AED7A /* MapError.swift in Sources */,
 				012775BD216C0F8E005AED7A /* API.swift in Sources */,
 				012775D1216C0F8E005AED7A /* UserDetail.swift in Sources */,
+				012776B5216C169E005AED7A /* TransformType.swift in Sources */,
+				01277669216C169E005AED7A /* ServerTrustPolicy.swift in Sources */,
+				01277699216C169E005AED7A /* Mapper.swift in Sources */,
 				012775C5216C0F8E005AED7A /* ClientOAuthHandler.swift in Sources */,
+				0127765D216C169E005AED7A /* Request.swift in Sources */,
+				01277641216C169E005AED7A /* Result.swift in Sources */,
+				01277671216C169E005AED7A /* Mappable.swift in Sources */,
+				012776BD216C169E005AED7A /* DateTransform.swift in Sources */,
+				01277695216C169E005AED7A /* DataTransform.swift in Sources */,
+				0127769D216C169E005AED7A /* Map.swift in Sources */,
+				0127767D216C169E005AED7A /* ISO8601DateTransform.swift in Sources */,
+				01277689216C169E005AED7A /* Operators.swift in Sources */,
+				01277655216C169E005AED7A /* Response.swift in Sources */,
+				01277659216C169E005AED7A /* Alamofire.swift in Sources */,
+				012776CD216C169E005AED7A /* AlamofireObjectMapper.swift in Sources */,
+				01277679216C169E005AED7A /* HexColorTransform.swift in Sources */,
 				012775CD216C0F8E005AED7A /* ClientService.swift in Sources */,
+				012776A5216C169E005AED7A /* DictionaryTransform.swift in Sources */,
+				01277685216C169E005AED7A /* NSDecimalNumberTransform.swift in Sources */,
+				01277631216C169E005AED7A /* MultipartFormData.swift in Sources */,
+				01277661216C169E005AED7A /* SessionManager.swift in Sources */,
+				0127763D216C169E005AED7A /* DispatchQueue+Alamofire.swift in Sources */,
+				012776C5216C169E005AED7A /* ToJSON.swift in Sources */,
+				012776A9216C169E005AED7A /* TransformOperators.swift in Sources */,
+				0127762D216C169E005AED7A /* TaskDelegate.swift in Sources */,
+				0127768D216C169E005AED7A /* EnumOperators.swift in Sources */,
+				0127764D216C169E005AED7A /* Validation.swift in Sources */,
+				01277649216C169E005AED7A /* AFError.swift in Sources */,
+				0127766D216C169E005AED7A /* SessionDelegate.swift in Sources */,
+				012776B1216C169E005AED7A /* IntegerOperators.swift in Sources */,
+				01277681216C169E005AED7A /* URLTransform.swift in Sources */,
 				012775C9216C0F8E005AED7A /* AuthService.swift in Sources */,
+				012776AD216C169E005AED7A /* ImmutableMappable.swift in Sources */,
+				01277651216C169E005AED7A /* Notifications.swift in Sources */,
+				01277635216C169E005AED7A /* NetworkReachabilityManager.swift in Sources */,
+				012776C1216C169E005AED7A /* DateFormatterTransform.swift in Sources */,
+				01277691216C169E005AED7A /* EnumTransform.swift in Sources */,
 				012775C1216C0F8E005AED7A /* AuthRouter.swift in Sources */,
+				01277665216C169E005AED7A /* ResponseSerialization.swift in Sources */,
+				012776A1216C169E005AED7A /* FromJSON.swift in Sources */,
+				01277645216C169E005AED7A /* ParameterEncoding.swift in Sources */,
+				01277675216C169E005AED7A /* CustomDateFormatTransform.swift in Sources */,
+				012776C9216C169E005AED7A /* TransformOf.swift in Sources */,
 				359649051FB18CC000FC7ADC /* OAuth3A.swift in Sources */,
 				012775D5216C0F8E005AED7A /* Token.swift in Sources */,
 			);
@@ -882,9 +1347,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CLANG_ENABLE_MODULES = YES;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
-				DEVELOPMENT_TEAM = ZN6BYUYD2C;
+				DEVELOPMENT_TEAM = "";
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
@@ -898,9 +1364,10 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.3advance.oauth.OAuth3A;
 				PRODUCT_NAME = OAuth3A;
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SKIP_INSTALL = YES;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
+				SWIFT_SWIFT3_OBJC_INFERENCE = On;
 				SWIFT_VERSION = 4.2;
 			};
 			name = Debug;
@@ -909,8 +1376,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
-				DEVELOPMENT_TEAM = ZN6BYUYD2C;
+				DEVELOPMENT_TEAM = "";
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
@@ -924,8 +1393,9 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.3advance.oauth.OAuth3A;
 				PRODUCT_NAME = OAuth3A;
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SKIP_INSTALL = YES;
-				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
+				SWIFT_SWIFT3_OBJC_INFERENCE = On;
 				SWIFT_VERSION = 4.2;
 			};
 			name = Release;

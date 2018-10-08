@@ -6,7 +6,6 @@
 //
 
 import Foundation
-import ObjectMapper
 
 public class UserDetail: NSObject, Mappable {
 

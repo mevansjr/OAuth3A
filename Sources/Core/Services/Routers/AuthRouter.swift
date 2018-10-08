@@ -5,8 +5,6 @@
 //  Copyright © 3Advance, LLC. All rights reserved.
 //
 
-import Alamofire
-
 enum AuthRouter: URLRequestConvertible {
     case loginAnonymous()
     case login(String, String)

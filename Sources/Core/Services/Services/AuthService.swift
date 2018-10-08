@@ -6,9 +6,6 @@
 //
 
 import Foundation
-import Alamofire
-import ObjectMapper
-import AlamofireObjectMapper
 
 public extension ClientService {
 
