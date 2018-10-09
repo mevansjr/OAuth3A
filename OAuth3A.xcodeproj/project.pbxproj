@@ -27,10 +27,6 @@
 		012775CC216C0F8E005AED7A /* BaseService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 012775B7216C0F8E005AED7A /* BaseService.swift */; };
 		012775CD216C0F8E005AED7A /* BaseService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 012775B7216C0F8E005AED7A /* BaseService.swift */; };
 		012775CE216C0F8E005AED7A /* BaseService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 012775B7216C0F8E005AED7A /* BaseService.swift */; };
-		012775CF216C0F8E005AED7A /* UserDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 012775B9216C0F8E005AED7A /* UserDetail.swift */; };
-		012775D0216C0F8E005AED7A /* UserDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 012775B9216C0F8E005AED7A /* UserDetail.swift */; };
-		012775D1216C0F8E005AED7A /* UserDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 012775B9216C0F8E005AED7A /* UserDetail.swift */; };
-		012775D2216C0F8E005AED7A /* UserDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 012775B9216C0F8E005AED7A /* UserDetail.swift */; };
 		012775D3216C0F8E005AED7A /* Token.swift in Sources */ = {isa = PBXBuildFile; fileRef = 012775BA216C0F8E005AED7A /* Token.swift */; };
 		012775D4216C0F8E005AED7A /* Token.swift in Sources */ = {isa = PBXBuildFile; fileRef = 012775BA216C0F8E005AED7A /* Token.swift */; };
 		012775D5216C0F8E005AED7A /* Token.swift in Sources */ = {isa = PBXBuildFile; fileRef = 012775BA216C0F8E005AED7A /* Token.swift */; };
@@ -296,7 +292,6 @@
 		012775B4216C0F8E005AED7A /* ClientOAuthHandler.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ClientOAuthHandler.swift; sourceTree = "<group>"; };
 		012775B6216C0F8E005AED7A /* AuthService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AuthService.swift; sourceTree = "<group>"; };
 		012775B7216C0F8E005AED7A /* BaseService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseService.swift; sourceTree = "<group>"; };
-		012775B9216C0F8E005AED7A /* UserDetail.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserDetail.swift; sourceTree = "<group>"; };
 		012775BA216C0F8E005AED7A /* Token.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Token.swift; sourceTree = "<group>"; };
 		012775D7216C10E6005AED7A /* ObjectMapper.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ObjectMapper.framework; path = Carthage/Build/iOS/ObjectMapper.framework; sourceTree = "<group>"; };
 		012775D9216C10F4005AED7A /* Alamofire.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Alamofire.framework; path = Carthage/Build/iOS/Alamofire.framework; sourceTree = "<group>"; };
@@ -472,7 +467,6 @@
 		012775B8216C0F8E005AED7A /* Models */ = {
 			isa = PBXGroup;
 			children = (
-				012775B9216C0F8E005AED7A /* UserDetail.swift */,
 				012775BA216C0F8E005AED7A /* Token.swift */,
 			);
 			path = Models;
@@ -960,7 +954,6 @@
 				01277637216C169E005AED7A /* Timeline.swift in Sources */,
 				012776B7216C169E005AED7A /* MapError.swift in Sources */,
 				012775BB216C0F8E005AED7A /* API.swift in Sources */,
-				012775CF216C0F8E005AED7A /* UserDetail.swift in Sources */,
 				012776B3216C169E005AED7A /* TransformType.swift in Sources */,
 				01277667216C169E005AED7A /* ServerTrustPolicy.swift in Sources */,
 				01277697216C169E005AED7A /* Mapper.swift in Sources */,
@@ -1016,7 +1009,6 @@
 				0127763A216C169E005AED7A /* Timeline.swift in Sources */,
 				012776BA216C169E005AED7A /* MapError.swift in Sources */,
 				012775BE216C0F8E005AED7A /* API.swift in Sources */,
-				012775D2216C0F8E005AED7A /* UserDetail.swift in Sources */,
 				012776B6216C169E005AED7A /* TransformType.swift in Sources */,
 				0127766A216C169E005AED7A /* ServerTrustPolicy.swift in Sources */,
 				0127769A216C169E005AED7A /* Mapper.swift in Sources */,
@@ -1072,7 +1064,6 @@
 				01277638216C169E005AED7A /* Timeline.swift in Sources */,
 				012776B8216C169E005AED7A /* MapError.swift in Sources */,
 				012775BC216C0F8E005AED7A /* API.swift in Sources */,
-				012775D0216C0F8E005AED7A /* UserDetail.swift in Sources */,
 				012776B4216C169E005AED7A /* TransformType.swift in Sources */,
 				01277668216C169E005AED7A /* ServerTrustPolicy.swift in Sources */,
 				01277698216C169E005AED7A /* Mapper.swift in Sources */,
@@ -1128,7 +1119,6 @@
 				01277639216C169E005AED7A /* Timeline.swift in Sources */,
 				012776B9216C169E005AED7A /* MapError.swift in Sources */,
 				012775BD216C0F8E005AED7A /* API.swift in Sources */,
-				012775D1216C0F8E005AED7A /* UserDetail.swift in Sources */,
 				012776B5216C169E005AED7A /* TransformType.swift in Sources */,
 				01277669216C169E005AED7A /* ServerTrustPolicy.swift in Sources */,
 				01277699216C169E005AED7A /* Mapper.swift in Sources */,
