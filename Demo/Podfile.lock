@@ -18,7 +18,7 @@ EXTERNAL SOURCES:
 
 CHECKOUT OPTIONS:
   OAuth3A:
-    :commit: ba4e8c91e8f4fb8d74af5323a6e5220eb1995156
+    :commit: 8d406a78d59ef0e1ee7938ec8926c019e4a6b5f2
     :git: https://github.com/mevansjr/OAuth3A
 
 SPEC CHECKSUMS:
