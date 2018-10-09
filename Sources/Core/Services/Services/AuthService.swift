@@ -9,7 +9,7 @@ import Foundation
 
 public extension AuthService {
 
-    // MARK: OAUth Methods
+    // MARK: OAuth Methods
 
     func loginAnonymous(completion: @escaping CompletionHandler) {
         DispatchQueue(label: "background", qos: .background).async {
@@ -88,24 +88,19 @@ public extension AuthService {
         }
     }
 
-    func logoutUser(completion: @escaping CompletionBoolHandler)  {
+    private func removeAuthentication(completion: @escaping CompletionBoolHandler)  {
         DispatchQueue.main.async {
-            AuthService.shared.anonymousUserLoggedIn = false
-            AuthService.shared.userLoggedIn = false
-            AuthService.shared.currentUser = nil
-            UserDefaults.standard.removePersistentDomain(forName: Bundle.main.bundleIdentifier!)
-            UserDefaults.standard.synchronize()
             AuthService.shared.clearTokenAndOAuthHandler()
             completion(true)
         }
     }
 
-    func logout() {
-        self.logoutUser { (_) in
+    func logout(completion: @escaping CompletionBoolHandler) {
+        self.removeAuthentication { (_) in
             self.loginAnonymous(completion: { (success, _) in
                 if let token = success as? Token { AuthService.shared.saveOAuthToken(token) }
                 DispatchQueue.main.async {
-                    AuthService.shared.anonymousUserLoggedIn = true
+                    completion(true)
                 }
             })
         }

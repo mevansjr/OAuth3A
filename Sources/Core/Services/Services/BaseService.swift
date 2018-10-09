@@ -12,9 +12,6 @@ public class AuthService {
 
     // MARK: Properties
 
-    public var anonymousUserLoggedIn = false
-    public var userLoggedIn = false
-    public var currentUser: UserDetail?
     public var manager = SessionManager()
     public var oauthHandler: ClientOAuthHandler?
 
@@ -116,12 +113,9 @@ public extension AuthService {
     func errorHandler(completion: @escaping CompletionHandler) -> (DataResponse<Data>) -> Void {
         return { (res) in
             if let error = res.result.error, let response = res.response {
-                print("errorHandler: \(error.localizedDescription)")
-                print("errorHandler response: \(response.debugDescription)")
                 completion(nil, error.handleError(response: response))
             }
             else if let error = res.result.error {
-                print("errorHandler: \(error.localizedDescription)")
                 completion(nil, error.handleError())
             }
         }
@@ -129,15 +123,10 @@ public extension AuthService {
 
     func errorHandler(completion: @escaping CompletionBoolHandler) -> (DataResponse<Data>) -> Void {
         return { (res) in
-            if let error = res.result.error, let response = res.response {
-                print("errorHandler BOOL: \(error.localizedDescription)")
-                print("errorHandler BOOL response: \(response.debugDescription)")
-                print("ERROR BOOL: \(error.handleError(response: response))")
+            if let _ = res.result.error, let _ = res.response {
                 completion(false)
             }
-            else if let error = res.result.error {
-                print("errorHandler BOOL: \(error.localizedDescription)")
-                print("ERROR BOOL: \(error.handleError())")
+            else if let _ = res.result.error {
                 completion(false)
             }
         }
