@@ -10,9 +10,9 @@ import Foundation
 
 @objc public class API: NSObject {
     
-    public let ApiEndpoint = "https://api-nudge-dev.azurewebsites.net"
-    public let ApiClientId = "ios"
-    public let ApiClientSecret = "W3]IZN&mcm.&.gWGIPIs+>pmf"
+    public var ApiEndpoint = ""
+    public var ApiClientId = ""
+    public var ApiClientSecret = ""
     
     public static let shared: API = {
         let instance = API()

@@ -29,7 +29,11 @@ class ViewController: UIViewController {
             }
         }
 
-        ClientService.shared.loginAnonymous { (success, _) in
+//        API.shared.ApiClientId = "ios"
+//        API.shared.ApiClientSecret = "W3]IZN&mcm.&.gWGIPIs+>pmf"
+//        API.shared.ApiEndpoint = "https://api-nudge-dev.azurewebsites.net"
+
+        AuthService.shared.loginAnonymous { (success, _) in
             if let token = success as? Token, let json = token.toJSONString(prettyPrint: true) {
                 print("Anonymous Token: \(json)")
             }
