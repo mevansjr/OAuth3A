@@ -70,21 +70,21 @@ public class UserDetail: NSObject, Mappable {
 
 extension UserDetail {
     var isRegistered: Bool {
-        if let userStatus = ClientService.shared.currentUser?.userStatus, !userStatus.isEmpty, userStatus == UserDetail.UserStatus.registered.rawValue {
+        if let userStatus = AuthService.shared.currentUser?.userStatus, !userStatus.isEmpty, userStatus == UserDetail.UserStatus.registered.rawValue {
             return true
         }
         return false
     }
 
     var isConfirmed: Bool {
-        if let userStatus = ClientService.shared.currentUser?.userStatus, !userStatus.isEmpty, userStatus == UserDetail.UserStatus.confirmed.rawValue {
+        if let userStatus = AuthService.shared.currentUser?.userStatus, !userStatus.isEmpty, userStatus == UserDetail.UserStatus.confirmed.rawValue {
             return true
         }
         return false
     }
 
     var isPending: Bool {
-        if let userStatus = ClientService.shared.currentUser?.userStatus, !userStatus.isEmpty, userStatus == UserDetail.UserStatus.pending.rawValue {
+        if let userStatus = AuthService.shared.currentUser?.userStatus, !userStatus.isEmpty, userStatus == UserDetail.UserStatus.pending.rawValue {
             return true
         }
         return false

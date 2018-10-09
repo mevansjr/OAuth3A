@@ -23,10 +23,10 @@
 		012775C8216C0F8E005AED7A /* AuthService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 012775B6216C0F8E005AED7A /* AuthService.swift */; };
 		012775C9216C0F8E005AED7A /* AuthService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 012775B6216C0F8E005AED7A /* AuthService.swift */; };
 		012775CA216C0F8E005AED7A /* AuthService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 012775B6216C0F8E005AED7A /* AuthService.swift */; };
-		012775CB216C0F8E005AED7A /* ClientService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 012775B7216C0F8E005AED7A /* ClientService.swift */; };
-		012775CC216C0F8E005AED7A /* ClientService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 012775B7216C0F8E005AED7A /* ClientService.swift */; };
-		012775CD216C0F8E005AED7A /* ClientService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 012775B7216C0F8E005AED7A /* ClientService.swift */; };
-		012775CE216C0F8E005AED7A /* ClientService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 012775B7216C0F8E005AED7A /* ClientService.swift */; };
+		012775CB216C0F8E005AED7A /* BaseService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 012775B7216C0F8E005AED7A /* BaseService.swift */; };
+		012775CC216C0F8E005AED7A /* BaseService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 012775B7216C0F8E005AED7A /* BaseService.swift */; };
+		012775CD216C0F8E005AED7A /* BaseService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 012775B7216C0F8E005AED7A /* BaseService.swift */; };
+		012775CE216C0F8E005AED7A /* BaseService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 012775B7216C0F8E005AED7A /* BaseService.swift */; };
 		012775CF216C0F8E005AED7A /* UserDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 012775B9216C0F8E005AED7A /* UserDetail.swift */; };
 		012775D0216C0F8E005AED7A /* UserDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 012775B9216C0F8E005AED7A /* UserDetail.swift */; };
 		012775D1216C0F8E005AED7A /* UserDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 012775B9216C0F8E005AED7A /* UserDetail.swift */; };
@@ -295,7 +295,7 @@
 		012775B2216C0F8E005AED7A /* AuthRouter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AuthRouter.swift; sourceTree = "<group>"; };
 		012775B4216C0F8E005AED7A /* ClientOAuthHandler.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ClientOAuthHandler.swift; sourceTree = "<group>"; };
 		012775B6216C0F8E005AED7A /* AuthService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AuthService.swift; sourceTree = "<group>"; };
-		012775B7216C0F8E005AED7A /* ClientService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ClientService.swift; sourceTree = "<group>"; };
+		012775B7216C0F8E005AED7A /* BaseService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseService.swift; sourceTree = "<group>"; };
 		012775B9216C0F8E005AED7A /* UserDetail.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserDetail.swift; sourceTree = "<group>"; };
 		012775BA216C0F8E005AED7A /* Token.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Token.swift; sourceTree = "<group>"; };
 		012775D7216C10E6005AED7A /* ObjectMapper.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ObjectMapper.framework; path = Carthage/Build/iOS/ObjectMapper.framework; sourceTree = "<group>"; };
@@ -463,7 +463,7 @@
 		012775B5216C0F8E005AED7A /* Services */ = {
 			isa = PBXGroup;
 			children = (
-				012775B7216C0F8E005AED7A /* ClientService.swift */,
+				012775B7216C0F8E005AED7A /* BaseService.swift */,
 				012775B6216C0F8E005AED7A /* AuthService.swift */,
 			);
 			path = Services;
@@ -977,7 +977,7 @@
 				01277657216C169E005AED7A /* Alamofire.swift in Sources */,
 				012776CB216C169E005AED7A /* AlamofireObjectMapper.swift in Sources */,
 				01277677216C169E005AED7A /* HexColorTransform.swift in Sources */,
-				012775CB216C0F8E005AED7A /* ClientService.swift in Sources */,
+				012775CB216C0F8E005AED7A /* BaseService.swift in Sources */,
 				012776A3216C169E005AED7A /* DictionaryTransform.swift in Sources */,
 				01277683216C169E005AED7A /* NSDecimalNumberTransform.swift in Sources */,
 				0127762F216C169E005AED7A /* MultipartFormData.swift in Sources */,
@@ -1033,7 +1033,7 @@
 				0127765A216C169E005AED7A /* Alamofire.swift in Sources */,
 				012776CE216C169E005AED7A /* AlamofireObjectMapper.swift in Sources */,
 				0127767A216C169E005AED7A /* HexColorTransform.swift in Sources */,
-				012775CE216C0F8E005AED7A /* ClientService.swift in Sources */,
+				012775CE216C0F8E005AED7A /* BaseService.swift in Sources */,
 				012776A6216C169E005AED7A /* DictionaryTransform.swift in Sources */,
 				01277686216C169E005AED7A /* NSDecimalNumberTransform.swift in Sources */,
 				01277632216C169E005AED7A /* MultipartFormData.swift in Sources */,
@@ -1089,7 +1089,7 @@
 				01277658216C169E005AED7A /* Alamofire.swift in Sources */,
 				012776CC216C169E005AED7A /* AlamofireObjectMapper.swift in Sources */,
 				01277678216C169E005AED7A /* HexColorTransform.swift in Sources */,
-				012775CC216C0F8E005AED7A /* ClientService.swift in Sources */,
+				012775CC216C0F8E005AED7A /* BaseService.swift in Sources */,
 				012776A4216C169E005AED7A /* DictionaryTransform.swift in Sources */,
 				01277684216C169E005AED7A /* NSDecimalNumberTransform.swift in Sources */,
 				01277630216C169E005AED7A /* MultipartFormData.swift in Sources */,
@@ -1145,7 +1145,7 @@
 				01277659216C169E005AED7A /* Alamofire.swift in Sources */,
 				012776CD216C169E005AED7A /* AlamofireObjectMapper.swift in Sources */,
 				01277679216C169E005AED7A /* HexColorTransform.swift in Sources */,
-				012775CD216C0F8E005AED7A /* ClientService.swift in Sources */,
+				012775CD216C0F8E005AED7A /* BaseService.swift in Sources */,
 				012776A5216C169E005AED7A /* DictionaryTransform.swift in Sources */,
 				01277685216C169E005AED7A /* NSDecimalNumberTransform.swift in Sources */,
 				01277631216C169E005AED7A /* MultipartFormData.swift in Sources */,

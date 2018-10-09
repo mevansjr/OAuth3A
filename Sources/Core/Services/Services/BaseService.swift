@@ -8,16 +8,14 @@
 
 import Foundation
 
-public class ClientService {
+public class AuthService {
 
     // MARK: Properties
 
-    public var hasBranchIdentity = false
     public var anonymousUserLoggedIn = false
     public var userLoggedIn = false
     public var currentUser: UserDetail?
     public var manager = SessionManager()
-    public var currentToken = ""
     public var oauthHandler: ClientOAuthHandler?
 
     public typealias CompletionHandler = (_ success: Any?, _ error: NSError?) -> Void
@@ -28,8 +26,8 @@ public class ClientService {
 
     // MARK: Shared Instance
 
-    public static let shared: ClientService = {
-        let instance = ClientService()
+    public static let shared: AuthService = {
+        let instance = AuthService()
         instance.setupManager()
         return instance
     }()
@@ -43,7 +41,7 @@ public class ClientService {
     }
 }
 
-public extension ClientService {
+public extension AuthService {
     func setupManangerAndOAuthHandler() {
         self.oauthHandler = self.getClientOAuthHandler()
         self.manager.adapter = self.oauthHandler

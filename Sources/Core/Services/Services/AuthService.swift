@@ -1,5 +1,5 @@
 //
-//  AuthService.self
+//  AuthService.swift
 //
 //  Created by 3Advance iOS Swagger Generator.
 //  Copyright © 3Advance, LLC. All rights reserved.
@@ -7,7 +7,7 @@
 
 import Foundation
 
-public extension ClientService {
+public extension AuthService {
 
     // MARK: OAUth Methods
 
@@ -22,7 +22,7 @@ public extension ClientService {
                         } else if let error = response.result.error {
                             completion(nil, error.handleError(response: response.response))
                         } else {
-                            completion(nil, NSError(domain: ClientService.DEFAULT_ERROR_MSG, code: ClientService.DEFAULT_ERROR_CODE))
+                            completion(nil, NSError(domain: AuthService.DEFAULT_ERROR_MSG, code: AuthService.DEFAULT_ERROR_CODE))
                         }
                     }
             }
@@ -60,7 +60,7 @@ public extension ClientService {
                     } else if let error = response.result.error {
                         completion(nil, error.handleError(response: response.response))
                     } else {
-                        completion(nil, NSError(domain: ClientService.DEFAULT_ERROR_MSG, code: ClientService.DEFAULT_ERROR_CODE));
+                        completion(nil, NSError(domain: AuthService.DEFAULT_ERROR_MSG, code: AuthService.DEFAULT_ERROR_CODE));
                     }
             }
         }
@@ -78,7 +78,7 @@ public extension ClientService {
                                 completion(token, nil)
                             }
                             else {
-                                completion(nil, NSError(domain: ClientService.DEFAULT_ERROR_MSG, code: ClientService.DEFAULT_ERROR_CODE))
+                                completion(nil, NSError(domain: AuthService.DEFAULT_ERROR_MSG, code: AuthService.DEFAULT_ERROR_CODE))
                             }
                         case .failure(let error):
                             completion(nil, error.handleError(response: response.response))
@@ -90,12 +90,12 @@ public extension ClientService {
 
     func logoutUser(completion: @escaping CompletionBoolHandler)  {
         DispatchQueue.main.async {
-            ClientService.shared.anonymousUserLoggedIn = false
-            ClientService.shared.userLoggedIn = false
-            ClientService.shared.currentUser = nil
+            AuthService.shared.anonymousUserLoggedIn = false
+            AuthService.shared.userLoggedIn = false
+            AuthService.shared.currentUser = nil
             UserDefaults.standard.removePersistentDomain(forName: Bundle.main.bundleIdentifier!)
             UserDefaults.standard.synchronize()
-            ClientService.shared.clearTokenAndOAuthHandler()
+            AuthService.shared.clearTokenAndOAuthHandler()
             completion(true)
         }
     }
@@ -103,9 +103,9 @@ public extension ClientService {
     func logout() {
         self.logoutUser { (_) in
             self.loginAnonymous(completion: { (success, _) in
-                if let token = success as? Token { ClientService.shared.saveOAuthToken(token) }
+                if let token = success as? Token { AuthService.shared.saveOAuthToken(token) }
                 DispatchQueue.main.async {
-                    ClientService.shared.anonymousUserLoggedIn = true
+                    AuthService.shared.anonymousUserLoggedIn = true
                 }
             })
         }

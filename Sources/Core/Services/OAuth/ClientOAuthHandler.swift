@@ -83,7 +83,7 @@ public class ClientOAuthHandler: RequestAdapter, RequestRetrier {
     private func refreshTokens(completion: @escaping RefreshCompletion) {
         guard !isRefreshing else { return }
         isRefreshing = true
-        ClientService.shared.refreshToken(refreshToken: refreshToken) { [weak self] (success, _) in
+        AuthService.shared.refreshToken(refreshToken: refreshToken) { [weak self] (success, _) in
             guard let strongSelf = self else { return }
             if
                 let token = success as? Token,
